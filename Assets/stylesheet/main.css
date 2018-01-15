@@ -1,0 +1,458 @@
+
+
+  html, body, 
+  {
+   width: 100%;
+   height: 100%;
+  }
+  #container
+  {
+   width: 100%;
+   margin:0% auto;
+  
+  }
+
+  *{
+       font-family: quicksand;
+       margin:0%;
+       list-style: none;
+   } 
+
+header nav ul{
+    margin-top: 10px;
+    float:right;
+    margin-right:100px;
+  }
+
+  header li{
+     
+    float:left;
+      list-style:none;
+      padding:20px;
+                
+    }
+
+  header  nav ul li a{
+      text-decoration:none;
+      color:white;
+      
+  }
+
+
+
+    .logo{
+        margin-top:15px;
+         margin-left:100px;
+       position:fixed;
+        padding:18px;
+        border-radius: 10px;
+    
+    }
+
+.navclass{
+        height:70px;
+        width: 100%;
+        background:rgba(0,0,0,0.5);
+      position:fixed;
+       
+}
+
+    .navclass::after{
+        content: " ";
+       position: absolute;
+        top: 100%;
+        left: 8%;
+        border-top: 41px solid rgba(0,0,0,0.5);
+        border-right: 93px solid rgba(0,0,0,0.5);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        z-index: -1;     
+    }
+
+
+    #sign{
+        
+        height:100px;
+        background-color:#a2c73c;
+        padding:10px;
+        padding-left:20px;
+        padding-right: 20px;  
+        border-radius: 20px;
+        color:white;
+        }  
+
+
+        header nav a:hover {
+            color:#a2c73c;
+            background-color: transparent;
+            text-decoration: none;
+        
+        }
+
+                        
+header nav a:hover {
+    color:#a2c73c;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+    .sect1{
+        margin:0% auto;
+        background-image:url("/home/sumit/htmlproject/Assets/image/banner-img.png");
+        background-position: center;
+        height: 700px;
+        width: 100%;
+        text-align: center;
+        background-size:cover;
+    }
+
+    .joyimg{
+        margin-top: 150px;
+    }
+    .bannertitle{
+        color:white;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    .button1{
+        margin-top: 70px;
+        width:500px;
+        height:50px;
+        font-size: 30px;
+        color:white;
+        background-color: #a2c73c;
+        border-style: none;
+        border-radius: 24px;
+    }
+
+
+
+
+
+
+
+
+.sect2{
+
+    width:100% ;
+     height:880px;
+     padding-top:60px;
+    text-align: center;
+   
+ 
+ }
+.container2{
+
+    width:900px;
+    height:810px;
+    margin:0% auto;
+}
+   
+
+ .sect2 a{
+     text-decoration: none;
+ }
+.block1
+{
+ color:black;
+ float:left;
+ width:270px;
+ height:270px;
+ background-color: #a2c73c;
+ font-family:quicksand;
+
+}
+
+.block1::after{t:810px;
+ content: "";
+ position:relative;
+ float: right; 
+ top: -51%;
+ right: -10%;
+ border-top: 30px solid transparent;
+ border-bottom: 30px solid transparent;
+ border-left: 29px solid #a2c73c;
+
+}
+
+#ancher{
+ text-align: center;
+ margin-bottom:10px;
+ 
+}
+
+
+
+.block2
+{
+
+ float:left;
+ width:270px;
+ height:270px;
+ background-image:url("/home/sumit/htmlproject/Assets/image/Amanora_JOD_projects_Neo.jpg");
+}
+.block3
+{
+ 
+ float:left;
+ width:270px;
+ height:270px;
+ background-color: #075daa;
+ 
+}
+
+.block3::after{
+ 
+     content: "";
+     position: relative;
+     float: right;
+     top: 3%;
+     left: -40%;
+     border-top: 29px solid #075daa;
+     border-right: 30px solid transparent;
+     border-left: 30px solid transparent;
+
+}
+
+.block4
+{
+
+ float:left;
+ width:270px;
+ height:270px;
+ background-image:url("/home/sumit/htmlproject/Assets/image/Amanora_JOD_projects_Adreno.jpg");
+}
+
+.block4::after{
+ 
+ content: "";
+ position: relative;
+ float: right;
+ top: 90%;
+ left: -39%;
+ border-left: 30px solid transparent;
+ border-right: 30px solid transparent;
+ border-bottom: 29px solid #4494d1;
+
+}
+.block5
+{
+ 
+ float:left;
+ width:270px;
+ height:270px;
+ background-color:white;
+
+ 
+}
+
+
+
+.block6
+{
+
+ float:left;
+ width:270px;
+ height:270px;
+ background-image:url("/home/sumit/htmlproject/Assets/image/Amanora_JOD_projects_gateway.jpg");
+}
+
+
+.block7
+{
+
+float:left;
+ width:270px;
+ height:270px;
+ background-color:#4494d1;
+
+}
+
+
+.block8
+{
+
+ float:left;
+ width:270px;
+ height:270px;
+
+}
+
+.block8::after{
+ 
+ content: "";
+ position: relative;
+ float: right;
+ top: -60%;
+ left: 0%;
+ border-top: 30px solid transparent;
+ border-right: 29px solid #0eb049;
+ border-bottom: 30px solid transparent;
+
+}
+.block9
+{
+ 
+float:left;
+ width:270px;
+ height:270px;
+ background-color:#0eb049;
+ 
+}
+
+
+h5{
+ text-align: center;
+ margin-top:10px;
+}
+
+.qoute{
+
+ text-align: center;
+ margin-top:60px;
+
+}
+
+
+
+
+.sect3{
+    width:100%;
+    height:500px;
+    background-color:#0072bc;
+    text-align: center;
+}
+
+.container3{
+
+        width:700px;
+        margin: 0% auto;
+
+}
+
+.title3{
+
+    font-size:36px ;
+     color:white;
+     padding-top: 70px;
+}
+
+
+.para{
+    padding-top: 50px;
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    margin: 0% auto;
+    line-height: 130%;
+
+}
+.button2 {
+                 margin-top: 50px;
+                    width:500px;
+                    height:50px;
+                    font-size: 30px;
+                    color:white;
+                    background-color: #a2c73c;
+                    border-style: none;
+                    border-radius: 24px;
+}
+
+.section4{
+  
+    text-align: center;
+    margin-top: 50px;
+    padding:0% auto;
+  }
+  .section4 .footergrid{
+            margin-right: 10%;
+            margin-left: 10%;
+            width: 1200px;
+            margin: 0 auto;
+           
+  }
+  .section4 .footergrid div{
+    width: 370px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 20px;
+    padding:10px;
+  }
+
+  h2{
+      margin-top:20px;
+  }
+  .section4 .footergrid div p{
+
+        margin-top:20px;
+        font-family: quicksand;
+
+  }
+
+   
+.inversebutton
+{
+  color: #0072bc;
+  margin-top: 20px;
+    height:40px;
+    width:215px;
+    border-radius: 20px;
+    border: 2px solid #a2c73c;
+    background-color: white;
+
+}
+.inversebutton:hover{
+    background-color:  #7fa810;
+
+}
+
+
+
+.sect5{
+
+    height:300px; 
+    width:100%; 
+    background-color:#0f151a;
+
+}
+
+.footerlogo
+{
+    float:none;
+    margin-top:45px;
+    margin-left:355px;
+    position: relative;
+}
+
+.logos
+{
+    float: left;
+    margin-top: 50px;
+   margin-left:175px;
+  
+ 
+}
+
+.sect5 li a{
+    text-decoration: none;
+}
+.sect5 .div2 ul li   a{
+    color: #3e6485;
+}
+.sect5 .div2 ul li   a:hover{
+    color:#a2c73c;
+}
+
+
+.sect6{
+
+    width:100%;
+    height:50px;
+    background-color:#0f151a;
+    border-top: 1px solid black;
+    text-align:center;
+    padding-top:35px;
+    color:#3e6485;
+    font-size:15px;
+}
