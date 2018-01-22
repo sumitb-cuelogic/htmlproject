@@ -1,14 +1,36 @@
 
 
+<<<<<<< HEAD
   *{
        font-family: quicksand;
+=======
+  html, body, 
+  {
+   width: 100%;
+   height: 100%;
+  }
+  #container
+  {
+   width: 100%;
+   margin:0% auto;
+  
+  }
+
+  *{
+       font-family: quicksand;
+       margin:0%;
+>>>>>>> 202e00392226660fc082122c0f4382ca041574e4
        list-style: none;
    } 
 
 header nav ul{
     margin-top: 10px;
     float:right;
+<<<<<<< HEAD
 
+=======
+    margin-right:100px;
+>>>>>>> 202e00392226660fc082122c0f4382ca041574e4
   }
 
   header li{
@@ -37,11 +59,18 @@ header nav ul{
     }
 
 .navclass{
+<<<<<<< HEAD
         height:70px;    
         background:rgba(0,0,0,0.5);
         width:100%;
       position: fixed;
       float:right;
+=======
+        height:70px;
+        width: 100%;
+        background:rgba(0,0,0,0.5);
+      position:fixed;
+>>>>>>> 202e00392226660fc082122c0f4382ca041574e4
        
 }
 
@@ -84,6 +113,7 @@ header nav a:hover {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 
 .container1{
 
@@ -95,6 +125,14 @@ header nav a:hover {
     .sect1{
 
         background-image:url("/home/sumit/htmlproject/Assets/image/banner-img.png");
+=======
+    .sect1{
+        margin:0% auto;
+        background-image:url("/home/sumit/htmlproject/Assets/image/banner-img.png");
+        background-position: center;
+        height: 700px;
+        width: 100%;
+>>>>>>> 202e00392226660fc082122c0f4382ca041574e4
         text-align: center;
         background-size:cover;
     }
@@ -405,6 +443,10 @@ h5{
 .sect5{
 
     height:300px; 
+<<<<<<< HEAD
+=======
+    width:100%; 
+>>>>>>> 202e00392226660fc082122c0f4382ca041574e4
     background-color:#0f151a;
 
 }
